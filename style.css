@@ -227,9 +227,9 @@ background: var(--secondary-color);
 .menu-section .menu-list{
      display: flex;
      flex-wrap: wrap;
-     gap: 110px;
+     gap: 40px;
      align-items: center;
-     justify-content: space-between;
+     justify-content: center;
 }
 .menu-section .menu-list .menu-item{
      display: flex;
@@ -317,7 +317,12 @@ background: var(--secondary-color);
      display: flex;
      gap: 48px;
      align-items: flex-start;
-     justify-content: space-between;
+     justify-content: center;
+}
+.section-content{
+     margin: 0 auto;
+     padding: 0 20px;
+     max-width: var(--site-max-width);
 }
 
 .contact-section .contact-info-list .contact-info{
@@ -547,6 +552,7 @@ html, body {
 * {
     max-width: 100%;
 }
+
 
 
 
