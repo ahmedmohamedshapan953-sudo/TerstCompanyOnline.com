@@ -271,7 +271,7 @@ background: var(--secondary-color);
 
 .portofolio-section .slider-wrapper{
      overflow: hidden;
-     margin: 0 60px 50px;
+     margin: 0 20px 50px;
 }
 .portofolio-section .portofolio {
      user-select: none;
@@ -530,11 +530,17 @@ body.show-mobile-menu .nav-menu{
      .menu-section .menu-list .menu-item{
           width: 100%;
      }
-     img{
+}
+ img{
      max-width: 100%;
      height: auto;
+
+      html, body{
+     overflow-x: hidden;
 }
+
 }
+
 
 
 
