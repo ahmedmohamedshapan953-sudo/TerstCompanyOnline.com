@@ -454,6 +454,15 @@ body.show-mobile-menu header::before{
      background: rgba(0, 0,0, 0.2);
 
 }
+.contact-section .section-content{
+     flex-direction: column;
+}
+
+.contact-section .contact-form{
+     max-width: 100%;
+}
+
+     
 .navbar :where(#menu-close-button,#menu-open-button){
      display: block;
     font-size: var(--font-size-l); 
@@ -552,6 +561,7 @@ html, body {
 * {
     max-width: 100%;
 }
+
 
 
 
