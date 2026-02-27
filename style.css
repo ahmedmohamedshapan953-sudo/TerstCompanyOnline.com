@@ -562,6 +562,23 @@ html, body {
     max-width: 100%;
 }
 
+@media screen and (max-width: 900px){
+
+  .contact-section .section-content{
+      flex-direction: column !important;
+      align-items: center !important;
+  }
+
+  .contact-section .contact-info{
+      width: 100%;
+  }
+
+  .contact-section .contact-form{
+      width: 100%;
+      max-width: 100%;
+  }
+
+}
 
 
 
