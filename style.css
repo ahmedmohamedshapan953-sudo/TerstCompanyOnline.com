@@ -162,7 +162,7 @@ background: var(--secondary-color);
 }
 .about-section .section-content{
      display: flex;
-     gap: 50px;
+     gap: 30px;
      align-items: center;
      justify-content: space-between;
 }
@@ -531,5 +531,6 @@ body.show-mobile-menu .nav-menu{
           width: 100%;
      }
 }
+
 
 
